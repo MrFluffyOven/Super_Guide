@@ -22,6 +22,9 @@ $ mv super.img super.img-old ; mv extracted/* .
 # Extract system partition
 $ ./lpunpack --partition=system super.img .
 
+# Extract system_ext partition
+$ ./lpunpack --partition=system_ext super.img .
+
 # Extract odm partition
 $ ./lpunpack --partition=odm super.img .
 
